@@ -64,6 +64,10 @@
     return 15;
 }
 
+- (CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section {
+    return CGFLOAT_MIN;//CGFLOAT_MIN 这个宏表示 CGFloat 能代表的最接近 0 的浮点数，64 位下大概是 0.00(300左右个)0225 这个样子，这里用 0.1 效果是一样的。
+}
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     MTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"MTableViewCell" forIndexPath:indexPath];
     cell.delegate = self;
@@ -75,9 +79,6 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
 
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
-    MTableViewCell *cell = [tableView cellForRowAtIndexPath:indexPath];
-    
-    
 }
 
 - (void)didMoreActionWith:(ActionBtnIndex)actionIndex {

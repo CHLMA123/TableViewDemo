@@ -149,9 +149,6 @@
 		364BDAFA1F163E86001E7BA2 /* TableViewDemo */ = {
 			isa = PBXGroup;
 			children = (
-				364BDB5E1F164AD8001E7BA2 /* Album3_Selected@2x.png */,
-				364BDB5C1F164A17001E7BA2 /* Message@2x.png */,
-				364BDB5A1F16425F001E7BA2 /* 80.png */,
 				364BDB371F164192001E7BA2 /* Masonry */,
 				364BDAFE1F163E86001E7BA2 /* AppDelegate.h */,
 				364BDAFF1F163E86001E7BA2 /* AppDelegate.m */,
@@ -174,6 +171,9 @@
 		364BDAFB1F163E86001E7BA2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				364BDB5E1F164AD8001E7BA2 /* Album3_Selected@2x.png */,
+				364BDB5C1F164A17001E7BA2 /* Message@2x.png */,
+				364BDB5A1F16425F001E7BA2 /* 80.png */,
 				364BDAFC1F163E86001E7BA2 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -619,6 +619,7 @@
 				364BDB2A1F163E86001E7BA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		364BDB2B1F163E86001E7BA2 /* Build configuration list for PBXNativeTarget "TableViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -627,6 +628,7 @@
 				364BDB2D1F163E86001E7BA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		364BDB2E1F163E86001E7BA2 /* Build configuration list for PBXNativeTarget "TableViewDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -635,6 +637,7 @@
 				364BDB301F163E86001E7BA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
